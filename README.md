@@ -1,4 +1,4 @@
-I built this demo to show how much I know about Angular directives.
+I built this demo to learn about Angular directives.
 
 I apologize for not making folders. I built this demo in a day.
 
