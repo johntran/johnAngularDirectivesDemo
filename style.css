@@ -1,0 +1,23 @@
+/* Styles go here */
+
+/* User Tile CSS */
+.highlight {
+  color: red;
+}
+
+/* Star Wars State Change CSS */
+.user-ok{
+  
+}
+
+.user-warning{
+  background-color: yellow;
+}
+ 
+.user-problem{
+  background-color: orange;
+}
+
+.user-error{
+  background-color: red;
+}

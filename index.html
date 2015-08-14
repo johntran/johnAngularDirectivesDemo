@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+*****
+See individual JS files for comments.
+*****
+-->
+<html ng-app="app">
+
+<head>
+  <link data-require="bootstrap@*" data-semver="3.3.5" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+  <script data-require="jquery@*" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script data-require="angular.js@1.4.3" data-semver="1.4.3" src="https://code.angularjs.org/1.4.3/angular.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+  <script src="app-johnClickCtrl.js"></script>
+  <script src="app-starWarsCtrl.js"></script>
+  <script src="app-userTileDemo.js"></script>
+  <script src="app-videoCtrl.js"></script>
+    <script src="app-watchCtrl.js"></script>
+</head>
+
+<body class="container">
+  <div ng-include src="'view-starWarsDemo.html'"></div>
+
+  <div ng-include src="'view-videoDemo.html'"></div>
+
+  <div ng-include src="'view-johnClickDemo.html'"></div>
+
+  <div ng-include src="'view-userTileDemo.html'"></div>
+
+  <div ng-include src="'view-watchDemo.html'"></div>
+
+</body>
+
+</html>
